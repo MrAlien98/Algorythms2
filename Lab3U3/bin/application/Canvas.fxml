@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CanvasController">
+   <children>
+      <Canvas fx:id="canvas" height="200.0" width="200.0" />
+      <ImageView fx:id="iv" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="iv2" fitHeight="150.0" fitWidth="200.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ivP" fitHeight="150.0" fitWidth="200.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>

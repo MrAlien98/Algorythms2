@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LanzarController">
+   <top>
+      <ImageView fx:id="banner" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="cancha" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="flag" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="pokeActual" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </center>
+   <right>
+      <VBox fx:id="pokimas" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="pokebola1" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="pokebola2" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="pokebola3" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

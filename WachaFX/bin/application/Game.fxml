@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameController">
+   <children>
+      <ImageView fx:id="vida1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="vida2" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="vida3" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fondo" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgUsuario" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>
